@@ -11,13 +11,13 @@ El siguiente es el tercer trabajo práctico de la materia de Programación Orien
 - El cliente simplemente debe ingresar el tipo de reporte que requiere, sea por ejemplo pdf, y el programa operará con la clase correspondiente.
 - Este método es útil porque inicialmente, en ejecución, no sabemos qué subclase se requiere hasta que el usuario la elige. Además permite definir una base común para el renderizado.
 
-* Añadir ejemplo en código de cómo usarlo una vez que lo tengamos?
+...Añadir ejemplo en código de cómo usarlo una vez que lo tengamos?
 
 ### Requerimiento 2
-
+método builder
 
 ### Requerimiento 3
-
+singleton
 
 
 Un archivo README.md en la raíz del proyecto que explique claramente:
