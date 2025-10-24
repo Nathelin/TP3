@@ -1,18 +1,37 @@
-## Getting Started
+# Trabajo Práctico N°3 - Menacho Natalia A. & Roko María G.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+El siguiente es el tercer trabajo práctico de la materia de Programación Orientada a Objetos II de la carrera de Licenciatura en Sistemas de Información de la UNaM.
 
-## Folder Structure
+## Justificación de la solución.
 
-The workspace contains two folders by default, where:
+### Requerimiento 1
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Se eligió trabajar con el patrón de diseño **factory**.
+- Esta elección surge a partir de que se necesita contar con distintas lógicas de renderizado, contenidas en clases, para distintos formatos de reporte. Utilizar factory permite que las clases hijas sobreescriban el constructor de acuerdo a las necesidades del cliente.
+- El cliente simplemente debe ingresar el tipo de reporte que requiere, sea por ejemplo pdf, y el programa operará con la clase correspondiente.
+- Este método es útil porque inicialmente, en ejecución, no sabemos qué subclase se requiere hasta que el usuario la elige. Además permite definir una base común para el renderizado.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+* Añadir ejemplo en código de cómo usarlo una vez que lo tengamos?
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Requerimiento 2
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Requerimiento 3
+
+
+
+Un archivo README.md en la raíz del proyecto que explique claramente:
+ Para el Requerimiento 1 (Motor de Renderizado):
+o ¿Qué patrón de diseño creacional eligieron?
+o ¿Por qué este patrón es la solución adecuada para este problema?
+o ¿Qué problema(s) evita (ej. acoplamiento, violación del principio
+Abierto/Cerrado)?
+ Para el Requerimiento 2 (Construcción de Reportes):
+o ¿Qué patrón de diseño creacional eligieron?
+o ¿Por qué este patrón es la solución adecuada?
+o ¿Qué problemas específicos del "constructor" resuelve?
+ Para el Requerimiento 3 (Gestor de Configuración):
+o ¿Qué patrón de diseño creacional eligieron?
+o ¿Por qué este patrón es la solución adecuada para este
+requerimiento?
+o ¿Cómo garantizaron la unicidad de la instancia? 
