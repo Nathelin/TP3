@@ -33,3 +33,6 @@ El método builder nos permite declarar parámetros obligatorios para todo repor
 Esta elección surge a partir de que se necesita un único punto de acceso a la configuración de la aplicación. Para ello, se debe instanciar una única instancia de `GestorConfiguracion`.
 
 El método singleton nos permite garantizar que esto se cumpla. A través del mismo se crea un constructor privado accedido a través de un método público encargado de revisar si existe o no el objeto al que se busca acceder. En caso de que no exista, instanciará por su cuenta el objeto. En caso de que sí exista, siempre devolverá el único y mismo gestor de configuración al usuario, garantizando su unicidad.
+
+### Diagramas
+En la carpeta **diagramas** de este repositorio podrá hallar los diagramas correspondientes a cada patrón de diseño utilizado para satisfacer los requerimientos del sistema.
