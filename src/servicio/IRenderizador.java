@@ -1,4 +1,5 @@
 package servicio;
+import modelos.Reporte;
 
 public interface IRenderizador {
 
@@ -6,6 +7,6 @@ public interface IRenderizador {
 
     //debe incluir la clase Reporte del requerimiento 2 para renderizar
 
-    void renderizar(); // aca va Reporte reporte
+    void renderizar(Reporte reporte);
 
 }
